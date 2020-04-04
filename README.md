@@ -28,6 +28,18 @@ https://localhost:5001
 Gerador de Aventuras
 
 ```sh
+GET gerador/aventura
+```
+
+Gerador de Cidades
+
+```sh
+GET gerador/cidade
+```
+
+### Exemplos de consumo de API
+
+```sh
 https://localhost:5001/gerador/aventura
 ```
 

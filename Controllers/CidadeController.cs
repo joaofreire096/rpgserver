@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using RPGServer.Extensions;
 using RPGServer.Mocks;
 using RPGServer.Models;
@@ -7,12 +7,12 @@ namespace RPGServer.Controllers
 {
     [ApiController]
     [Route("gerador/[controller]")]
-    public class AventuraController : ControllerBase
+    public class CidadeController : ControllerBase
     {
         [HttpGet]
-        public Aventura GetAventura()
+        public Cidade GetCidade()
         {
-            return AventuraMock.GetAventuras().PickRandom();
+            return CidadeMock.GetCidades().PickRandom();
         }
     }
 }
