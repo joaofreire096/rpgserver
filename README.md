@@ -23,6 +23,14 @@ Endereço de desenvolvimento
 https://localhost:5001
 ```
 
+### APIs
+
+Gerador de Aventuras
+
+```sh
+https://localhost:5001/gerador/aventura
+```
+
 License
 ----
 
